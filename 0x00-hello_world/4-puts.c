@@ -2,7 +2,9 @@
 
 /**
  *Description: main -prints out a string to stdout
+ * find / -iname '*anything*'
  * Return: 0 if Success
+ *
  */
 int main(void)
  {
