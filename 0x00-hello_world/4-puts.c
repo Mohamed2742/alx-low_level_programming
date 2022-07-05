@@ -2,7 +2,7 @@
 
 /**
  *Description: main -prints out a string to stdout
- * Return: Always 0 (Success)
+ * Return: 0 if Success
  */
 int main(void)
  {
