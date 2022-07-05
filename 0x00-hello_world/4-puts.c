@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- *Description: main -prints out a string to stdout
- * find / -iname '*anything*'
- * Return: 0 if Success
+ *main -Entry point
+ * 
+ * Return: Always 0 (Anything)
  *
  */
 int main(void)
