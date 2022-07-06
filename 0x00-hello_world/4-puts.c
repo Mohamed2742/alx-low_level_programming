@@ -8,7 +8,6 @@
 int main(void)
  {
 	 puts( "\"programming is like building a multilingual puzzle ");
-	 echo -e "Anything\n"
-       
+	
           return (0);
  }
