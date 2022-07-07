@@ -1,21 +1,20 @@
 #include "main.h"
 
 /**
- * main - prints "_putchar"
+ * main - Entry point
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char s[] = "_putchar";
-	int i = 0;
+	char *sh = "main.h";
 
-	while (s[i] != '\0')
+	while (*sh)
 	{
-		_putchar(s[i]);
-		i++;
+		_putchar(*sh);
+		sh++;
 	}
-	_putchar(10);
+	_putchar('\n');
 
 	return (0);
 }
