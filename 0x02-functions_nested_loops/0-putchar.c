@@ -1,4 +1,4 @@
-#include "School.h"
+#include "main.h"
 
 /**
  * main - Entry point
@@ -7,13 +7,14 @@
  */
 int main(void)
 {
-	char ch[] = "School";
+	char ch[] = "Main";
 	int i;
 
 	for (i = 0; ch[i] != '\0'; i++)
 	{
 		_putchar(ch[i]);
 	}
+
 	_putchar('\n');
 	return (0);
 }
