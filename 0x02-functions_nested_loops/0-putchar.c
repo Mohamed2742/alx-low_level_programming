@@ -1,4 +1,4 @@
-#include "putchar.h"
+#include "School.h"
 
 /**
  * main - Entry point
@@ -7,15 +7,13 @@
  */
 int main(void)
 {
-	_putchar('H');
-	_putchar('0');
-	_putchar('i');
-	_putchar('b');
-	_putchar('e');
-	_putchar('r');
-	_putchar('t');
-	_putchar('o');
-	_putchar('n');
+	char ch[] = "School";
+	int i;
+
+	for (i = 0; ch[i] != '\0'; i++)
+	{
+		_putchar(ch[i]);
+	}
 	_putchar('\n');
 	return (0);
 }
