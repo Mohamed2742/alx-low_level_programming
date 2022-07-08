@@ -1,20 +1,21 @@
-#include "school.h"
+#include "main.h"
 
 /**
- * main - Entry point
+ * main - prints putchar
  * Return: Always returns 0 
  *
  */
 int main(void)
 {
-	char ch[] = "School";
-	int i;
-
-	for (i = 0; ch[i] != '\0'; i++)
-	{
-		_putchar(ch[i]);
-	}
-
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
 	_putchar('\n');
+
 	return (0);
 }
