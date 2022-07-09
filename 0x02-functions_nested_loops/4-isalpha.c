@@ -5,10 +5,21 @@
  *
  * Return: 1 if c is letter, lowercase or uppercase otherwise 0
  */
-int _isalpha(int c)
+void test _isalpha(int n)
 {
-if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
-return (1);
-else
-return (0);
+int r;
+
+r = _isalpha(n);
+_putchar(r + '0');
+_putchar('\n');
 }
+/**
+ * main - check the code for best school.
+ *
+ * Return: Always 0.
+ */
+int main (void)
+{
+	test_isalpha('H');
+	return (0);
+ }
