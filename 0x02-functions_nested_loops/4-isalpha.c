@@ -1,4 +1,6 @@
+#include <unistd.h>
 #include "main.h"
+
 /**
  * _isalpha - checks for alphabetic character
  * @c: takes in a character
@@ -7,7 +9,7 @@
  */
 int _isalpha(int c)
 {
-if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
+if ((c >= 65  && c <= 90) || (c >= 97 && c <= 122))
 return (1);
 else
 return (0);
