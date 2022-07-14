@@ -3,23 +3,12 @@
  * _isalpha - checks for alphabetic character
  * @c: takes in a character
  *
- * Return: 1 if c is letter, lowercase or uppercase otherwise 0
+ * Return: 1 if c is letter, lowercase or upper
  */
-void test _isalpha(int n)
+int _isalpha(int c)
 {
-int r;
-
-r = _isalpha(n);
-_putchar(r + '0');
-_putchar('\n');
+if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
+return (1);
+else
+return (0);
 }
-/**
- * main - check the code for best school.
- *
- * Return: Always 0.
- */
-int main (void)
-{
-	test_isalpha('H');
-	return (0);
- }
