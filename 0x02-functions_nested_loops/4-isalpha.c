@@ -1,16 +1,22 @@
-#include <unistd.h>
 #include "main.h"
 
 /**
- * _isalpha - checks for alphabetic character
- * @c: takes in a character
+ * main - check the code.
  *
- * Return: 1 if c is letter, lowercase or upper
+ * Return: Always 0 .
  */
-int _isalpha(int c)
+int main(void)
 {
-if ((c >= 65  && c <= 90) || (c >= 97 && c <= 122))
-return (1);
-else
-return (0);
+	int r;
+
+	r = _isalpha('H');
+	_putchar(r + '0');
+	r = _isalpha('0');
+	_putchar(r + '0');
+	r = _isalpha ('108');
+	_putchar(r + '0');
+	r = _isalpha(';');
+	_putchar(r + '0');
+	_putchar('\n');
+	return (0);
 }
